@@ -3,8 +3,8 @@ import os
 import pandas
 import datetime as dt
 from random import randint
-MY_EMAIL = os.environ.get("MY_EMAIL") #"neroiddf@gmail.com"
-PASSWORD = os.environ.get("MY_PASSWORD")#"aqdvejsgqwxawuae"
+MY_EMAIL = os.environ.get("MY_EMAIL") 
+PASSWORD = os.environ.get("MY_PASSWORD")
 
 date = dt.datetime.now()
 today =  (date.month, date.day)
